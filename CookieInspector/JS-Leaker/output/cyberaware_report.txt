@@ -1,0 +1,175 @@
+======================================================================
+           JS-LEAKER SECURITY SCAN REPORT
+======================================================================
+Generated: 2026-03-24 09:58:26
+Total Files Scanned: 2
+Total Findings: 16
+
+[ LOW ] (16 findings)
+----------------------------------------------------------------------
+FILE: jquery.min.js (1 findings):
+  --------------------------------------------------
+  * Passwords
+    Match: !0,image:!0})d.pseudos[b]=la(b);for(b in{submit:!0,reset:!0})d.pseudos[b]=ma(b);...
+    Line: 2
+    Context:
+        1|/*! jQuery v2.2.4 | (c) jQuery Foundation | jquery.org/license */
+        2|!function(a,b){"object"==typeof module&&"object"==typeof module.exports?module.exports=a.document?b(a,!0):function(a){if *** MATCH ***
+        3|}catch(e){}O.set(a,b,c)}else c=void 0;return c}n.extend({hasData:function(a){return O.hasData(a)||N.hasData(a)},data:fun
+        4|void 0!==c?e&&"set"in e&&void 0!==(d=e.set(a,c,b))?d:a[b]=c:e&&"get"in e&&null!==(d=e.get(a,b))?d:a[b]},propHooks:{tabIn
+
+FILE: swagger-ui-bundle.js (15 findings):
+  --------------------------------------------------
+  * Passwords
+    Match: t.preAuthorizeImplicit=t.CONFIGURE_AUTH=t.VALIDATE=t.AUTHORIZE_OAUTH2=t.PRE_AUTH...
+    Line: 13
+    Context:
+       11| * The buffer module from node.js, for the browser.
+       12| *
+       13| * @author   Feross Aboukhadijeh <feross@feross.org> <http://feross.org> *** MATCH ***
+       14| * @license  MIT
+       15| */
+
+  * Passwords
+    Match: function(e){return function(t){var n=t.authActions,r=e.schema,o=e.name,a=e.usern...
+    Line: 13
+    Context:
+       11| * The buffer module from node.js, for the browser.
+       12| *
+       13| * @author   Feross Aboukhadijeh <feross@feross.org> <http://feross.org> *** MATCH ***
+       14| * @license  MIT
+       15| */
+
+  * Passwords
+    Match: s}),
+    Line: 13
+    Context:
+       11| * The buffer module from node.js, for the browser.
+       12| *
+       13| * @author   Feross Aboukhadijeh <feross@feross.org> <http://feross.org> *** MATCH ***
+       14| * @license  MIT
+       15| */
+
+  * Passwords
+    Match: i},schema:l.toJS()})):null}function p(e,t,n){var i=e.authActions.authorize,o=e.s...
+    Line: 70
+    Context:
+       68| * @param {string} eventNameSuffix Event name, e.g. "click".
+       69| * @param {?boolean} capture Check if the capture phase is supported.
+       70| * @return {boolean} True if the event is supported. *** MATCH ***
+       71| * @internal
+       72| * @license Modernizr 3.0.0pre (Custom Build) | MIT
+
+  * Passwords
+    Match: ),m?l.default.createElement(
+    Line: 70
+    Context:
+       68| * @param {string} eventNameSuffix Event name, e.g. "click".
+       69| * @param {?boolean} capture Check if the capture phase is supported.
+       70| * @return {boolean} True if the event is supported. *** MATCH ***
+       71| * @internal
+       72| * @license Modernizr 3.0.0pre (Custom Build) | MIT
+
+  * Passwords
+    Match: !0,range:!0,search:!0,tel:!0,text:!0,time:!0,url:!0,week:!0};e.exports=function(...
+    Line: 70
+    Context:
+       68| * @param {string} eventNameSuffix Event name, e.g. "click".
+       69| * @param {?boolean} capture Check if the capture phase is supported.
+       70| * @return {boolean} True if the event is supported. *** MATCH ***
+       71| * @internal
+       72| * @license Modernizr 3.0.0pre (Custom Build) | MIT
+
+  * Passwords
+    Match: f[1]||
+    Line: 72
+    Context:
+       70| * @return {boolean} True if the event is supported.
+       71| * @internal
+       72| * @license Modernizr 3.0.0pre (Custom Build) | MIT *** MATCH ***
+       73| */,e.exports=function(e,t){if(!i.canUseDOM||t&&!("addEventListener"in document))return!1;var n="on"+e,o=n in document;i
+       74|/*! http://mths.be/repeat v0.2.0 by @mathias */
+
+  * Passwords
+    Match: ),f?u.default.createElement(
+    Line: 82
+    Context:
+       80|/*!
+       81| * Autolinker.js
+       82| * 0.15.3 *** MATCH ***
+       83| *
+       84| * Copyright(c) 2015 Gregory Jacobs <greg@greg-jacobs.com>
+
+  * Passwords
+    Match: ==_||_===g||_===y)&&l.default.createElement(
+    Line: 82
+    Context:
+       80|/*!
+       81| * Autolinker.js
+       82| * 0.15.3 *** MATCH ***
+       83| *
+       84| * Copyright(c) 2015 Gregory Jacobs <greg@greg-jacobs.com>
+
+  * Passwords
+    Match: ),x?l.default.createElement(
+    Line: 82
+    Context:
+       80|/*!
+       81| * Autolinker.js
+       82| * 0.15.3 *** MATCH ***
+       83| *
+       84| * Copyright(c) 2015 Gregory Jacobs <greg@greg-jacobs.com>
+
+  * Passwords
+    Match: ==_&&
+    Line: 82
+    Context:
+       80|/*!
+       81| * Autolinker.js
+       82| * 0.15.3 *** MATCH ***
+       83| *
+       84| * Copyright(c) 2015 Gregory Jacobs <greg@greg-jacobs.com>
+
+  * Passwords
+    Match: ==_,value:this.state.clientId,
+    Line: 82
+    Context:
+       80|/*!
+       81| * Autolinker.js
+       82| * 0.15.3 *** MATCH ***
+       83| *
+       84| * Copyright(c) 2015 Gregory Jacobs <greg@greg-jacobs.com>
+
+  * Passwords
+    Match: ==r.format?
+    Line: 82
+    Context:
+       80|/*!
+       81| * Autolinker.js
+       82| * 0.15.3 *** MATCH ***
+       83| *
+       84| * Copyright(c) 2015 Gregory Jacobs <greg@greg-jacobs.com>
+
+  * Passwords
+    Match: text
+    Line: 82
+    Context:
+       80|/*!
+       81| * Autolinker.js
+       82| * 0.15.3 *** MATCH ***
+       83| *
+       84| * Copyright(c) 2015 Gregory Jacobs <greg@greg-jacobs.com>
+
+  * Passwords
+    Match: return void n.authorizePassword(t);case
+    Line: 82
+    Context:
+       80|/*!
+       81| * Autolinker.js
+       82| * 0.15.3 *** MATCH ***
+       83| *
+       84| * Copyright(c) 2015 Gregory Jacobs <greg@greg-jacobs.com>
+
+
+======================================================================
+End of Report

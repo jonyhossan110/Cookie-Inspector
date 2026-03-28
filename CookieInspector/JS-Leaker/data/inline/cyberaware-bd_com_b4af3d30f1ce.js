@@ -1,0 +1,1 @@
+var elementskit_module_parallax_url = "https://cyberaware-bd.com/wp-content/plugins/elementskit/modules/parallax/";

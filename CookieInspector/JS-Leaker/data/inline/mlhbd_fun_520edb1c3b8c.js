@@ -1,0 +1,1 @@
+jQuery(document).ready(function(a){"false"==dtGonza.mobile&&a(window).load(function(){a(".scrolling").mCustomScrollbar({theme:"minimal-dark",scrollInertia:200,scrollButtons:{enable:!0},callbacks:{onTotalScrollOffset:100,alwaysTriggerOffsets:!1}})})});

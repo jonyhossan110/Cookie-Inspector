@@ -1,0 +1,58 @@
+JS-Leaker Scan Report
+============================================================
+Generated: 2026-03-24T11:22:19.147997
+Total Findings: 5
+
+FILE: data\external\localhost:8000__a24c49e9__app.js (2 findings)
+------------------------------------------------------------
+[HIGH] AWS Access Key ID - Line 5
+Match: AKIA0123456789ABCDEF
+Context:
+  
+  console.log('app loaded');
+  
+  var aws = "AKIA0123456789ABCDEF";
+  
+  var password = "mypassword123";
+
+[HIGH] Password in clear - Line 7
+Match: password = "mypassword123
+Context:
+  
+  var aws = "AKIA0123456789ABCDEF";
+  
+  var password = "mypassword123";
+
+
+FILE: data\inline\localhost:8000_e180f843f2a4.js (3 findings)
+------------------------------------------------------------
+[HIGH] JWT Token - Line 7
+Match: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.fake.signature
+Context:
+  
+      var apiKey = "AIza1234567890ABCDEFGHIJKLMNOPQRSTUV";
+  
+      var bearer = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.fake.signature";
+  
+    
+
+[MEDIUM] OAuth Bearer - Line 7
+Match: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.fake.signature
+Context:
+  
+      var apiKey = "AIza1234567890ABCDEFGHIJKLMNOPQRSTUV";
+  
+      var bearer = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.fake.signature";
+  
+    
+
+[MEDIUM] Generic API Key - Line 5
+Match: apiKey = "AIza1234567890ABCDEFGHIJKLMNOPQRSTUV
+Context:
+  
+      // Inline secrets
+  
+      var apiKey = "AIza1234567890ABCDEFGHIJKLMNOPQRSTUV";
+  
+      var bearer = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.fake.signature";
+

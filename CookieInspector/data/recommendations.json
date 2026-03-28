@@ -1,0 +1,12 @@
+{
+  "Missing HttpOnly": "Set the HttpOnly flag on sensitive cookies to prevent access from client-side scripts and reduce XSS risk.",
+  "Not Secure": "Set the Secure flag on cookies to ensure they are only sent over HTTPS channels.",
+  "Tracking": "Review tracking cookies and implement explicit consent controls to align with privacy and compliance requirements.",
+  "Analytics": "Limit analytics cookie exposure and document their use for privacy reviews and stakeholder reporting.",
+  "Expired Cookie": "Remove expired or stale cookies from storage to reduce persistence risk and improve session hygiene.",
+  "Third-party": "Restrict third-party cookie usage where possible and isolate cross-site tracking to minimize privacy risk.",
+  "Large Value": "Avoid oversized cookie values; keep payloads small to reduce network overhead and fingerprinting surface.",
+  "Session": "Review session cookies for appropriate lifetime and protect them with Secure and HttpOnly flags.",
+  "SameSite=None without Secure": "SameSite=None cookies must be Secure, or they create a high cross-site data exposure risk.",
+  "Public": "Avoid storing sensitive data in publicly accessible cookies; use secure, server-side session controls instead."
+}

@@ -1,0 +1,2 @@
+/* <![CDATA[ */var dtGonza = {"api":"https://mlhbd.fun/wp-json/dooplay/search/","glossary":"https://mlhbd.fun/wp-json/dooplay/glossary/","nonce":"6653a5dcfb","area":".live-search","button":".search-button","more":"View all results","mobile":"false","reset_all":"Really you want to restart all data?","manually_content":"They sure have added content manually?","loading":"Loading..","loadingplayer":"Loading player..","selectaplayer":"Select a video player","playeradstime":null,"autoplayer":"1","livesearchactive":"1"};//# sourceURL=live_search-js-extra
+/* ]]> */

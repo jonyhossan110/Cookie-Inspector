@@ -1,0 +1,55 @@
+JS-Leaker Scan Report
+============================================================
+Generated: 2026-03-24T11:18:59.852277
+Total Findings: 5
+
+FILE: data\inline\localhost:8000_63de05c413b7.js (3 findings)
+------------------------------------------------------------
+[HIGH] JWT Token - Line 4
+Match: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.fake.signature
+Context:
+  
+      // Inline secrets
+      var apiKey = "AIza1234567890ABCDEFGHIJKLMNOPQRSTUV";
+      var bearer = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.fake.signature";
+    
+
+[MEDIUM] OAuth Bearer - Line 4
+Match: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.fake.signature
+Context:
+  
+      // Inline secrets
+      var apiKey = "AIza1234567890ABCDEFGHIJKLMNOPQRSTUV";
+      var bearer = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.fake.signature";
+    
+
+[MEDIUM] Generic API Key - Line 3
+Match: apiKey = "AIza1234567890ABCDEFGHIJKLMNOPQRSTUV
+Context:
+  
+      // Inline secrets
+      var apiKey = "AIza1234567890ABCDEFGHIJKLMNOPQRSTUV";
+      var bearer = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.fake.signature";
+    
+
+
+FILE: data\external\localhost:8000__a24c49e9__app.js (2 findings)
+------------------------------------------------------------
+[HIGH] AWS Access Key ID - Line 5
+Match: AKIA0123456789ABCDEF
+Context:
+  
+  console.log('app loaded');
+  
+  var aws = "AKIA0123456789ABCDEF";
+  
+  var password = "mypassword123";
+
+[HIGH] Password in clear - Line 7
+Match: password = "mypassword123
+Context:
+  
+  var aws = "AKIA0123456789ABCDEF";
+  
+  var password = "mypassword123";
+

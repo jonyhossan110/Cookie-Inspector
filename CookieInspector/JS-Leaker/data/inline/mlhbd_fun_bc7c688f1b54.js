@@ -1,0 +1,1 @@
+const checkbox = document.getElementById('toggle-blur');const labelText = document.querySelector('.fancy-text');function updateLabel() {labelText.textContent = checkbox.checked ? 'Yes' : 'No';}updateLabel();checkbox.addEventListener('change', updateLabel);

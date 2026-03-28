@@ -1,0 +1,2 @@
+document.addEventListener('DOMContentLoaded', function() {const checkbox = document.getElementById('toggle-blur');// লোকাল স্টোরেজ থেকে ব্লার স্টেট নেওয়া
+if(localStorage.getItem('blurState') === 'off'){document.body.classList.add('no-blur');checkbox.checked = false;}checkbox.addEventListener('change', function() {if(this.checked){document.body.classList.remove('no-blur');localStorage.setItem('blurState','on');} else {document.body.classList.add('no-blur');localStorage.setItem('blurState','off');}});});

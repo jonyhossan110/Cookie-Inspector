@@ -1,0 +1,1 @@
+{"start":10,"end":50,"decimal":0,"duration":3,"options":{"useEasing":false,"easingFn":"","useGrouping":true,"separator":"","decimal":".","prefix":"","suffix":"<span class=\"counter_suffix\">+<\/span>"}}

@@ -1,0 +1,1 @@
+{"type":"type1","pagination_en":false,"posts_per_line":4,"grid_gap":"30","query":{"post_status":["publish"],"post_type":"team","posts_per_page":"7","paged":1,"orderby":"date","order":"DESC"},"link_post":"yes","custom_item_height":"yes","show_social":"yes","show_position":"yes","show_title":"yes","show_description":""}

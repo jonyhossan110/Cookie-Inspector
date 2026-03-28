@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>SPA Dynamic Test</title>
+</head>
+<body>
+  <h1>SPA Test</h1>
+  <div id="root"></div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function(){
+      // Dynamically inject an inline script (simulates SPA runtime injection)
+      var s = document.createElement('script');
+      s.innerText = 'var dynSecret = "oauth_token=abcd1234efgh5678"; console.log(dynSecret);';
+      document.body.appendChild(s);
+    });
+  </script>
+</body>
+</html>

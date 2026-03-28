@@ -1,0 +1,1 @@
+{"fade":false,"autoplay":true,"items_per_line":1,"autoplaySpeed":4000,"dots":false,"arrows":true,"l10n":{"prev":"Prev","next":"Next"}}
