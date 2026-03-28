@@ -72,8 +72,8 @@ DEFAULT_JS_HEADERS = {
     'Accept': 'application/javascript, text/javascript, */*; q=0.01',
 }
 
-# Use a path relative to the repository root so JS-Leaker can be invoked on any machine.
-ROOT_DIR = Path(__file__).resolve().parents[1]
+# Use a path relative to the CookieInspector project root so JS-Leaker can be invoked on any machine.
+ROOT_DIR = Path(__file__).resolve().parent
 JS_LEAKER_DIR = ROOT_DIR / 'JS-Leaker'
 JS_LEAKER_MAIN = JS_LEAKER_DIR / 'main.py'
 
@@ -135,8 +135,8 @@ def _scan_js_content(js_url: str, content: str) -> Optional[Dict[str, object]]:
         result['endpoints'] = endpoints
     return result
 
-# Use a path relative to the repository root so JS-Leaker can be invoked on any machine.
-ROOT_DIR = Path(__file__).resolve().parents[1]
+# Use a path relative to the CookieInspector project root so JS-Leaker can be invoked on any machine.
+ROOT_DIR = Path(__file__).resolve().parent
 JS_LEAKER_DIR = ROOT_DIR / 'JS-Leaker'
 JS_LEAKER_MAIN = JS_LEAKER_DIR / 'main.py'
 

@@ -1,0 +1,41 @@
+{
+  "targets": [
+    {
+      "target": "https://example.com",
+      "cookies": [],
+      "warnings": [
+        "JS-Leaker entrypoint not found"
+      ],
+      "summary": {
+        "target": "https://example.com",
+        "pages": 0,
+        "origins": [
+          ".example.com",
+          "example.com"
+        ],
+        "found_cookies": 0,
+        "duplicates": [],
+        "risk_counts": {
+          "Critical": 0,
+          "High": 0,
+          "Medium": 0,
+          "Low": 0
+        }
+      },
+      "js_analysis": [],
+      "js_leaker": {
+        "error": "JS-Leaker entrypoint not found",
+        "downloaded_files": [],
+        "findings": [],
+        "summary": {}
+      },
+      "baseline_diff": null
+    }
+  ],
+  "total_targets": 1,
+  "total_cookies": 0,
+  "warnings": [
+    "JS-Leaker entrypoint not found"
+  ],
+  "recommendations": []
+}
