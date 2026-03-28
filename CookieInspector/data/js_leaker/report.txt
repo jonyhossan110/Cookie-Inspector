@@ -1,9 +1,0 @@
-JS-Leaker Severity Summary
-========================================
-HIGH: 1
-MEDIUM: 0
-LOW: 0
-Total Unique Findings: 1
-
-Detailed entries:
-[HIGH] Password in clear in unknown (line 2)
