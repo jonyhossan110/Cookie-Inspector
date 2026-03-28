@@ -1,8 +1,0 @@
-JS-Leaker Severity Summary
-========================================
-HIGH: 0
-MEDIUM: 0
-LOW: 0
-Total Unique Findings: 0
-
-Detailed entries:
